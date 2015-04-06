@@ -1,0 +1,43 @@
+body{
+	background-image: url('Images/machine.jpg');
+	background-size: cover;
+	background-repeat: none;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 32px;
+	font-weight: bolder;
+	
+
+}
+
+.design{
+	margin: 100px;
+	margin-left: 300px;
+	padding-left: 250px;
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+.submit, #nxtbtn{
+	border-radius: 120px;
+	padding: 10px;
+	font-size: 24px;
+	background-color: green;
+	font-family: 'Lobster', cursive;
+}
+
+#nxtbtn{
+
+	float:right;
+	margin-top: -300px;
+	margin-right: 80px;
+	
+
+}
+
+.submit{
+	margin-top: 80px;
+}
+
+.write{
+	color: black;
+}
