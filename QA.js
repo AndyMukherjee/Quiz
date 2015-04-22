@@ -53,8 +53,9 @@ $('#nxtbtn').click(next);
 //disabling the Next button once the last question is reached
 if (Q[currentQ].quizNum === "Question 5"){
 
-	$('#nxtbtn').css('disable','true');
-};
+	$('#nxtbtn').click(function(){
+		$(this).prop("disabled", true);
+)};
 
 //----------------------------------------------------------
 $('.submit').click(function(){
