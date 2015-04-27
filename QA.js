@@ -46,16 +46,19 @@ function next(){
 	$('.Answere2').html(Q[currentQ].quizOption2);
 	$('.Answere3').html(Q[currentQ].quizOption3);
 
+	if (Q[currentQ].quizNum === "Question 5"){
+
+	
+		$('#nxtbtn').prop("disabled", true);
+
+};
+
 }
 $('#nxtbtn').click(next);
 
 //----------------------------------------------------
 //disabling the Next button once the last question is reached
-if (Q[currentQ].quizNum === "Question 5"){
 
-	$('#nxtbtn').click(function(){
-		$(this).prop("disabled", true);
-)};
 
 //----------------------------------------------------------
 $('.submit').click(function(){
